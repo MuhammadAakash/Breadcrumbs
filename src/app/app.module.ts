@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BreadcrumbModule } from 'angular-crumbs';
 import { HomeComponent } from './home/home.component';
 import { SettingsComponent } from './settings/settings.component';
+import { ChildrenComponent } from './children/children.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SettingsComponent
+    SettingsComponent,
+    ChildrenComponent,
   ],
   imports: [
     BrowserModule,
